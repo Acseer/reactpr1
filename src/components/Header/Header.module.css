@@ -1,0 +1,29 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.headerLogo {
+    font-size: 40px;
+    font-weight: 600;
+    color: #2A3630;
+}
+
+.headerNav {
+    display: flex;
+    gap: 30px;
+}
+
+.headerNav a {
+    color: #2A362F;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.headerNav a:hover {
+    color: #111;
+}
